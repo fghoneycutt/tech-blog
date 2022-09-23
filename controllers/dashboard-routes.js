@@ -41,7 +41,9 @@ router.get('/', withAuth, (req, res) => {
       res.status(500).json(err);
     });
 });
-
+router.get('/new-post', withAuth, (req, res) => {
+  res.render("new-post");
+});
 router.get('/edit/:id', withAuth, (req, res) => {
   Post.findByPk(req.params.id, {
     attributes: [

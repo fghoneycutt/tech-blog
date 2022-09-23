@@ -49,8 +49,24 @@ main {
   width: 94%;
 }
 
+.navigate, nav button {
+  text-decoration: none;
+  color: var(--primary);
+  margin: 10px;
+  background-color: var(--dark);
+  border: none;
+}
 p {
   font-size: 1.2rem;
+}
+
+.newPost{
+  text-decoration: none;
+  background-color: var(--dark);
+  color:var(--secondary);
+  padding: 5px;
+  border-radius: 10px;
+  size: 15px;
 }
 
 .btn {
@@ -115,7 +131,7 @@ p {
 
 .app-title a{
   text-decoration: none;
-  color: var(--dark)
+  color: var(--dark);  
 }
 
 .app-title {
@@ -198,6 +214,15 @@ list-style-type: none;
 .form-input {
   width: 100%;
   padding: 3%;
+  margin: 5px 0;
+  font-size: 1.2rem;
+  border: 2px solid var(--light-dark);
+  border-radius: var(--border-radius);
+}
+
+.post-title{
+  width: 100%;
+  padding: 1%;
   margin: 5px 0;
   font-size: 1.2rem;
   border: 2px solid var(--light-dark);
