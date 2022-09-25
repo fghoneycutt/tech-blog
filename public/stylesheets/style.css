@@ -191,7 +191,7 @@ list-style-type: none;
 .card-header {
   color: var(--primary);
   background-color: var(--dark);
-  padding: 2.5%;
+  padding: 1%;
   border-radius: calc(.18rem - 1px) calc(.18rem - 1px) 0 0;
 }
 
@@ -227,6 +227,10 @@ list-style-type: none;
   font-size: 1.2rem;
   border: 2px solid var(--light-dark);
   border-radius: var(--border-radius);
+}
+
+.title{
+  margin-bottom: 5px;
 }
 
 /* HEIGHT / WIDTH UTILS */
