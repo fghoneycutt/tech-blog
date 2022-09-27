@@ -2,7 +2,7 @@
   <div class="card">
     <h3 class='card-header'>
       <p><a href="/post/{{id}}">{{title}}</a></p>
-      <p>{{format_date created_at}}</p>
+      <p>Posted by {{user.username}} on {{format_date created_at}}</p>
     </h3>
   </div>
   <p><a href="/dashboard/edit/{{id}}" class="edit-link">Edit Post</a></p>
