@@ -193,6 +193,8 @@ list-style-type: none;
   background-color: var(--dark);
   padding: 1%;
   border-radius: calc(.18rem - 1px) calc(.18rem - 1px) 0 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .card-body {
