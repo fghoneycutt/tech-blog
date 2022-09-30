@@ -1,10 +1,9 @@
 {
-  "name": "hacker-news-clone",
+  "name": "tech-blog",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "jest",
     "seeds": "node seeds/index.js"
   },
   "author": "",
